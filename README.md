@@ -16,7 +16,7 @@ Install the scripts and example data by running the following:
 
 ```
 git clone https://github.com/rordenlab/soop-dwi.git
-cd soop-ct
+cd soop-dwi
 pip install -r requirements.txt
 unzip DICOM.zip
 ```
@@ -44,7 +44,6 @@ It is advisable to inspect the results after each stage. This modular pipeline a
 
 The diagram below shows the six processing stages. Arrows indicate transformation from input to output.
 
-![Processing stages Hounsfield -20..150](stages.jpg)
 **Figure 1** A: Convert DICOM to NIfTI. B: Select best DWI series. C: Anonymize and crop. D: Convert to BIDS. E: Spatial normalization.
 
 
