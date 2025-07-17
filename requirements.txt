@@ -1,0 +1,5 @@
+antspyx>=0.6.1
+nibabel>=5.3.2
+numpy>=2.3.0
+scipy>=1.15.2
+brainchop>=0.1.8
